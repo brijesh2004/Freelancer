@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Brijesh Singh</title>
+</head>
+  {{!-- // nav bar --}}
+  {{>navbar}}
+
+
+  {{!-- hero section start --}}
+
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          {{!-- Left side --}}
+          <div
+            class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+            <h1>WE WILL HELP YOU TO </h1>
+            <h1>GROW YOUR BUSINESS</h1>
+            <p>We Are The Team Of <span class="bold-style"> Professional Developer ✌️ || High Skilled Freelancer</span></p>
+            <button class="btn-style btn-primary">Read More</button>
+          </div>
+          {{!-- Right Side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+            <figure>
+              <img src="Images/growth.svg" alt="Hero_section_image">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {{!-- hero section end --}}
+
+
+
+
+  {{!-- About section start --}}
+
+  <div class="container-fluid mt-5 about-style" id="aboutid">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <h1 class="text-center main-heading">About Us</h1>
+        <p class="text-center sub-heading">grow Your Business with us</p>
+        <div class="row">
+          {{!-- Left side --}}
+
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+            <figure>
+              <img src="Images/about.svg" alt="Hero_section_image">
+            </figure>
+          </div>
+
+          {{!-- Right Side --}}
+          <div
+            class="col-md-6 col-12 hero-text order-md-1 order-0 d-flex justify-content-center align-items-center flex-column">
+            <h1>WE ARE THE PROFESSIONAL DEVELOPER ✌️</h1>
+            <h1>GROW YOUR BUSINESS</h1>
+           <p>Welcome to <span class="bold-style">Brijesh Singh</span>  and his team. We are highly skilled freelancers who can help
+             you to grow your business online and earn more profits. You can also visit our individual
+              profiles and connect with us. 
+            </p> 
+            <button class="btn-style btn-primary">Read More</button>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {{!-- About section end --}}
+
+
+
+  {{!-- service section start --}}
+  {{!-- <div class="container-fluid mt-5 about-style" id="serviceid">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <h1 class="text-center main-heading">Our Services</h1>
+        <p class="text-center sub-heading">grow Your Business with us</p>
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
+  </div> --}}
+  {{>service}}
+
+  {{!-- service section end --}}
+
+
+  {{!-- map section start  --}}
+  <div class="container">
+  {{>maps}}
+  </div>
+{{!-- 
+  map section end --}}
+
+    {{!-- Contact us section start  --}}
+  <div class="container">
+    <div class="container">
+  {{>Contact}}
+  <hr>
+  </div>
+  </div>
+  
+    {{>Handeler}}
+    {{!--  Contact us section end --}}
+
+
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
